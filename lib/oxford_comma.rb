@@ -12,8 +12,8 @@ def oxford_comma(array)
     exit
   else 
     last_element = array.pop
-    array.join(', ')
     array.push("and #{last_element}")
+    array.join(', ')
     exit
   end
 end
